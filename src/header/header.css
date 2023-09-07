@@ -1,0 +1,38 @@
+.head {
+  background-color: rgb(51, 81, 6);
+  color: #00ff88;
+  padding-left: 500px;
+  position: relative;
+  top: 30px;
+}
+
+.image {
+  position: relative;
+  left: 50px;
+  bottom: 75px;
+}
+
+.imageTwo {
+  position: relative;
+  bottom: 100px;
+  left: 500px;
+  animation-name: imageTwo;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+
+@keyframes imageTwo {
+  0% {
+    left: 100px;
+    top: 0px;
+  }
+  25% {
+    left: 100px;
+    top: 0px;
+  }
+
+  50% {
+    left: 500px;
+  }
+}
